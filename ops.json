@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "1c60f905-d424-4326-a40e-f0e052ab5a29",
+    "name": "NoBugJustFeature",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "73c7f7dc-d1aa-343a-926e-3e9f78e3a2f4",
+    "name": "NBJF",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
