@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "uuid": "08b2f86b-a884-352c-a38c-ce6474609266",
+    "name": "TukZus",
+    "created": "2024-05-25 18:37:17 +0200",
+    "source": "ImreProHD1",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "7a81f17e-c092-300c-ba4a-23a092264cbb",
+    "name": "thursgaming01",
+    "created": "2024-05-26 14:22:13 +0200",
+    "source": "ImreProHD1",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
