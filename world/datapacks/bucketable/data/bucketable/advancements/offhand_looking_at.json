@@ -1,0 +1,103 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "type_specific": {
+                          "type": "player",
+                          "looking_at": {
+                            "type": "#bucketable:bucketable",
+                            "distance": {
+                              "absolute": {
+                                "max": 6
+                              }
+                            }
+                          }
+                        },
+                        "equipment": {
+                          "mainhand": {
+                            "items": [
+                              "minecraft:water_bucket"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "type_specific": {
+                          "type": "player",
+                          "looking_at": {
+                            "type": "#bucketable:bucketable",
+                            "distance": {
+                              "absolute": {
+                                "max": 6
+                              }
+                            }
+                          }
+                        },
+                        "equipment": {
+                          "mainhand": {
+                            "items": [
+                              "minecraft:warped_fungus_on_a_stick"
+                            ],
+                            "nbt": "{CustomModelData:33000}"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "looking_at": {
+                      "type": "#bucketable:bucketable",
+                      "distance": {
+                        "absolute": {
+                          "max": 6
+                        }
+                      }
+                    }
+                  },
+                  "equipment": {
+                    "offhand": {
+                      "items": [
+                        "minecraft:water_bucket"
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bucketable:offhand_looking_at"
+  }
+}

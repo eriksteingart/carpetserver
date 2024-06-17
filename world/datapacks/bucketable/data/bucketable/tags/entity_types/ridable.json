@@ -1,0 +1,13 @@
+{
+  "values": [
+	"minecraft:camel",
+	"minecraft:horse",
+	"minecraft:llama",
+	"minecraft:mule",
+	"minecraft:trader_llama",
+	"minecraft:donkey",
+	"minecraft:zombie_horse",
+	"minecraft:skeleton_horse",
+	"minecraft:strider"
+  ]
+}

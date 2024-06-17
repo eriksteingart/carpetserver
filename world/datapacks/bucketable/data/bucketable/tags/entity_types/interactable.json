@@ -1,0 +1,9 @@
+{
+  "values": [
+	"minecraft:allay",
+	"#bucketable:traders",
+	"#bucketable:ridable",
+	"minecraft:wolf",
+	"minecraft:parrot"
+  ]
+}

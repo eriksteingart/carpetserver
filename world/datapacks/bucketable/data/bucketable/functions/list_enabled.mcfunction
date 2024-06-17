@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"\n[Bucketable Enabled]\n","color":"yellow"},{"storage":"bl_bucketable","nbt":"enabled","color":"green"},{"text":"\n"}]

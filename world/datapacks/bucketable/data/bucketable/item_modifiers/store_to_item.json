@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:bl_bucketable"
+    },
+    "ops": [
+      {
+        "source": "mobdatatemp",
+        "target": "StoreMob",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:bl_bucketable"
+    },
+    "ops": [
+      {
+        "source": "cmd",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:bl_bucketable"
+    },
+    "ops": [
+      {
+        "source": "display",
+        "target": "display",
+        "op": "replace"
+      }
+    ]
+  }
+]

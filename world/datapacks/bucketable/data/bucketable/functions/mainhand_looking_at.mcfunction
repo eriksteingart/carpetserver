@@ -1,0 +1,2 @@
+advancement revoke @s only bucketable:mainhand_looking_at
+item replace entity @s weapon.mainhand with minecraft:warped_fungus_on_a_stick{Unbreakable:1,HideFlags:4,CustomModelData:33000,display:{Name:'{"text":"Water Bucket","italic":false,"color":"white"}'},bucketable_bucket:1}
